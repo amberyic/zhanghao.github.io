@@ -16,13 +16,18 @@ body {
 }
 
 .navbar-brand {
+  float: left;
   cursor: pointer;
+}
+
+.navbar-toggle {
+  position: relative;
+  float: right;
 }
 
 body.mobile {
   font-size: 30px;
 }
-
 
 .katex{
   width: 100%;
