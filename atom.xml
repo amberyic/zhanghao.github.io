@@ -17,9 +17,9 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Attention机制的变体:hard&amp;soft, global&amp;local, bahdanau&amp;luong</title>
-    <link href="https://imzhanghao.com/2021/09/05/attention-mechanisms-variants/"/>
-    <id>https://imzhanghao.com/2021/09/05/attention-mechanisms-variants/</id>
+    <title>主流Attention机制的对比</title>
+    <link href="https://imzhanghao.com/2021/09/05/attention-mechanism-variants/"/>
+    <id>https://imzhanghao.com/2021/09/05/attention-mechanism-variants/</id>
     <published>2021-09-04T16:00:00.000Z</published>
     <updated>2021-09-04T16:00:00.000Z</updated>
     
@@ -43,7 +43,7 @@
   </entry>
   
   <entry>
-    <title>浅谈注意力机制(Attention Mechanism)</title>
+    <title>Attention机制的基本思想与实现原理</title>
     <link href="https://imzhanghao.com/2021/09/01/attention-mechanism/"/>
     <id>https://imzhanghao.com/2021/09/01/attention-mechanism/</id>
     <published>2021-08-31T16:00:00.000Z</published>
@@ -70,7 +70,7 @@
   </entry>
   
   <entry>
-    <title>Encoder-Decoder和Seq2Seq</title>
+    <title>基于Encoder-Decoder框架实现Seq2Seq模型</title>
     <link href="https://imzhanghao.com/2021/08/26/encoder-decoder/"/>
     <id>https://imzhanghao.com/2021/08/26/encoder-decoder/</id>
     <published>2021-08-25T16:00:00.000Z</published>
