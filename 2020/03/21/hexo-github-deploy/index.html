@@ -15,7 +15,7 @@
 </head><body>　　<nav class="navbar navbar-default navbar-fixed-top" style="opacity:.9;" role="navigation"><div class="container-fluid"><div class="navbar-header"><button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="/" _blank>张浩在路上</a></div><div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" style="height:1px;"><ul class="nav navbar-nav navbar-right"><li><a href="/" target="_self">博客</a></li><li><a href="/tags" target="_self">标签</a></li><li><a href="/categories" target="_self">分类</a></li><li><a href="/about" target="_self">关于</a></li></ul></div></div></nav><div class="inner"><h2>Hexo + Github Page搭建博客</h2><p>自己搭建在github Page上搭建博客的笔记.<br />
 Hexo是基于Node.js驱动的一款博客框架<br />
 主要内容:1)准备环境,2)安装)Hexo,3)GitHub绑定,4)常用命令,5)绑定域名,6)hexo备份,7)hexo恢复</p>
-<a id="more"></a>
+<span id="more"></span>
 <h2 id="准备环境"><a class="markdownIt-Anchor" href="#准备环境"></a> 准备环境</h2>
 <p>Hexo是基于Node.js驱动的一款博客框架。</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> git version</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> node -v</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> npm -v</span></span><br></pre></td></tr></table></figure>
@@ -26,12 +26,12 @@ Hexo是基于Node.js驱动的一款博客框架<br />
 <p>创建仓库名为abc.github.io的项目，其中abc为自己github的昵称<br />
 然后项目就建成了，点击Settings，向下拉到最后有个GitHub Pages，点击Choose a theme选择一个主题。<br />
 在博客根目录下的_config.yml文件最后增加下面的配置。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: https:&#x2F;&#x2F;github.com&#x2F;abc&#x2F;abc.github.io</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: https://github.com/abc/abc.github.io</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
 <h2 id="常用命令"><a class="markdownIt-Anchor" href="#常用命令"></a> 常用命令</h2>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> hexo new post <span class="string">&quot;article title&quot;</span></span></span><br><span class="line"><span class="meta">$</span><span class="bash"> hexo g</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> hexo s</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> hexo d</span></span><br></pre></td></tr></table></figure>
 <h2 id="绑定域名"><a class="markdownIt-Anchor" href="#绑定域名"></a> 绑定域名</h2>
 <p>自己github域名的地址</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ping abc.github.io</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ping abc.github.io</span><br></pre></td></tr></table></figure>
 <p>购买域名并将域名的A记录指到上一步得到的IP<br />
 在hexo目录下的source目录下添加CNAME，写上自己的域名。</p>
 <h2 id="hexo备份"><a class="markdownIt-Anchor" href="#hexo备份"></a> hexo备份</h2>
@@ -43,5 +43,5 @@ Hexo是基于Node.js驱动的一款博客框架<br />
 <h2 id="hexo恢复"><a class="markdownIt-Anchor" href="#hexo恢复"></a> hexo恢复</h2>
 <p>克隆博客的代码仓库</p>
 <p>切换到hexo分支，执行以下命令</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-cli -g</span><br><span class="line">$ npm install</span><br><span class="line">$ npm install hexo-deployer-git</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-cli -g</span><br><span class="line">$ npm install</span><br><span class="line">$ npm install hexo-deployer-git</span><br></pre></td></tr></table></figure>
 <hr><p><span>↶ </span><a href="/">返回首页</a><span></span></p></div><script src="/js/jquery.min.js"></script><script src="/js/main.js"></script><script src="/js/bootstrap.min.js"></script><link href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" rel="stylesheet" type="text/css"><link href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/copy-tex.css" rel="stylesheet" type="text/css"><script src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/copy-tex.min.js"></script></body></html>
