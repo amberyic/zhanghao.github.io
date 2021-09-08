@@ -3755,7 +3755,7 @@ Slaver显示：Worker</p>
       </tags>
   </entry>
   <entry>
-    <title>Attention机制多种变体的介绍和对比</title>
+    <title>Attention机制多种变体的介绍与对比</title>
     <url>/2021/09/06/attention-mechanism-variants/</url>
     <content><![CDATA[<h2 id="hard-attention-vs-soft-attention"><a class="markdownIt-Anchor" href="#hard-attention-vs-soft-attention"></a> hard attention vs soft attention</h2>
 <p><a href="https://arxiv.org/pdf/1406.6247v1.pdf">《Recurrent Models of Visual Attention》</a>中Volodymyr Mnih提出了hard attention方法。</p>
