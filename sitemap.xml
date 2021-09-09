@@ -298,20 +298,6 @@
   </url>
   
   <url>
-    <loc>https://imzhanghao.com/tags/%E5%8E%9F%E7%94%9F%E5%B9%BF%E5%91%8A/</loc>
-    <lastmod>2021-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://imzhanghao.com/tags/%E7%BC%96%E7%A0%81%E5%99%A8-%E8%A7%A3%E7%A0%81%E5%99%A8/</loc>
-    <lastmod>2021-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://imzhanghao.com/tags/%E6%B5%81%E9%87%8F%E4%BF%9D%E6%8A%A4/</loc>
     <lastmod>2021-09-09</lastmod>
     <changefreq>daily</changefreq>
@@ -320,6 +306,20 @@
   
   <url>
     <loc>https://imzhanghao.com/tags/%E5%8F%8D%E4%BD%9C%E5%BC%8A/</loc>
+    <lastmod>2021-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://imzhanghao.com/tags/%E5%8E%9F%E7%94%9F%E5%B9%BF%E5%91%8A/</loc>
+    <lastmod>2021-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://imzhanghao.com/tags/%E7%BC%96%E7%A0%81%E5%99%A8-%E8%A7%A3%E7%A0%81%E5%99%A8/</loc>
     <lastmod>2021-09-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
