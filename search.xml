@@ -3866,7 +3866,7 @@ Hexo是基于Node.js驱动的一款博客框架<br />
       </tags>
   </entry>
   <entry>
-    <title>Self-Attention和Multi-Head Attention详解</title>
+    <title>详解Self-Attention和Multi-Head Attention</title>
     <url>/2021/09/15/self-attention-multi-head-attention/</url>
     <content><![CDATA[<h2 id="概述"><a class="markdownIt-Anchor" href="#概述"></a> 概述</h2>
 <p>Self Attention就是Q、K、V均为同一个输入向量映射而来的Encoder-Decoder Attention，它可以无视词之间的距离直接计算依赖关系，能够学习一个句子的内部结构，实现也较为简单并且可以并行计算。</p>
